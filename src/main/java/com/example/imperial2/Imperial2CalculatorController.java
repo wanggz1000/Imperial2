@@ -13,4 +13,9 @@ public class Imperial2CalculatorController {
     public double gram(double ounce){
         return a.gram(ounce);
     }
+
+    @RequestMapping("/kilogram")
+    public double kilogram(double stone){
+        return a.kilogram(stone);
+    }
 }
