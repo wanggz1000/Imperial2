@@ -14,4 +14,12 @@ public class Imperial2Test {
         double result = exp.gram(a);
         assertEquals(expectedResult,result);
     }
+
+    @Test
+    void kilogramTest1(){
+        double a = 10;
+        double expectedResult = 63.5;
+        double result = exp.kilogram(a);
+        assertEquals(expectedResult,result);
+    }
 }
